@@ -7,9 +7,59 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Political Leaning</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Liberal, Moderate, or Conservative: Which are you?</h2>
+      <p>The results from this survey are not based in any science, and are merely opinions of some random people on the internet.</p>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <h4>Should there be more or less "government"?</h4>
+        <select class="form-control" id="moreOrLess">
+          <option>less government</option>
+          <option>50/50</option>
+          <option>more government</option>
+        </select>
+
+        <h4>Should there be more or less guns?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gunControl" value="0">
+            Less Guns!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gunControl" value="1">
+            Same amount of Guns!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gunControl" value="2">
+            More Guns!
+          </label>
+        <br>
+        <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div class ="conservative">
+      <p>It is our opinion that you are a conservative!</p>
+    </div>
+
+    <div class ="moderate">
+      <p>It is our opinion that you are a moderate!</p>
+    </div>
+
+    <div class ="liberal">
+      <p>It is our opinion that you are a liberal!</p>
+    </div>
+
+  </div>
 </body>
 </html>

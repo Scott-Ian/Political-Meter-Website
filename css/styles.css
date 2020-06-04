@@ -1,0 +1,19 @@
+h2 {
+  text-decoration: underline;
+}
+
+.jumbotron p {
+  font-size: 15px;
+}
+
+.conservative {
+  display: none;
+}
+
+.moderate {
+  display: none;
+}
+
+.liberal {
+  display: none;
+}
